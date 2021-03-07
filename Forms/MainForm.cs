@@ -109,7 +109,7 @@ namespace ToDo_Project.Forms
         {
             LoadData();
         }
-
+        
         private void btnEdit_Click(object sender, EventArgs e)
         {
             if (id != 0)
@@ -120,7 +120,7 @@ namespace ToDo_Project.Forms
                     using (Edit edit = new Edit())
                     {
                         edit.SetData(task.TaskTitle, task.TaskDescription, task.TaskDate, task.TaskStatus, task.TaskID);
-                        if (edit.ShowDialog() == DialogResult)
+                        if (edit.ShowDialog() == DialogResult.OK)
                         {
 
                         }
