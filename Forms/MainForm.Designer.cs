@@ -69,6 +69,7 @@ namespace ToDo_Project.Forms
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(776, 65);
             this.panel1.TabIndex = 2;
+            this.panel1.Click += new System.EventHandler(this.panel1_Click);
             // 
             // btnRefresh
             // 

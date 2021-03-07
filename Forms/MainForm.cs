@@ -149,5 +149,11 @@ namespace ToDo_Project.Forms
                 }
             }
         }
+
+        private void panel1_Click(object sender, EventArgs e)
+        {
+            labelID.Text = "N\\A";
+            id = 0;
+        }
     }
 }
